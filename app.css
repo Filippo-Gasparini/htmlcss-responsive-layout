@@ -29,6 +29,7 @@
     font-weight: 400;
     font-style: normal;
   }
+  
 
   .montserrat-uniquifier {
     font-family: "Montserrat", sans-serif;
@@ -41,4 +42,30 @@
 /*inizio*/
 
 
+@media screen and (max-width: 992px) {    
+
+ .title {
+  font-size: large;
+  color: orange;
+  height: 30px;
+}
+
+}
+
+
+.container-hero {
+background-color: beige;
+border-radius: 1px;
+height: auto;
+}
+
+
+.sottotitolo {
+    color: grey;
+}
+
+.titolo {
+    font-size: 20px;
+    color: purple;
+}
 
