@@ -17,15 +17,15 @@
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
 
-  .montserrat-uniquifier {
+
+.montserrat-uniquifier {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-  }
+}
 
 
 /*inizio*/
@@ -36,80 +36,230 @@ main {
 }
 
 
-
-@media screen and (max-width: 992px) {    
-
- .title {
-  font-size: large;
-  color: orange;
-  height: 30px;
-}
+/*per desktop*/
 
 
 
 
-.sottotitolo {
-    color: grey;
-}
+@media screen and (max-width: 992px) {
 
-.titolo {
-    font-size: 20px;
-    color: purple;
-}
+    .title {
+        font-size: large;
+        color: orange;
+        height: 30px;
+    }
+
+
+
+
+    .sottotitolo {
+        color: grey;
+    }
+
+    .titolo {
+        font-size: 20px;
+        color: purple;
+    }
 
 
     ul {
         list-style-type: none;
-        }
-
-    
-        
-        .col-50 {
-            display: flex;
-            justify-items: center;
-            align-items: center;
-        }
+    }
 
 
+
+    .col-50 {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
 
 
 
 
-        
-        .container {
-            height: auto;
-        }
 
 
 
-        .btn {
-            background-color: white;
-            border-radius: 100%;
-            color: rgb(0, 0, 0);
-            font-size: 15px;
-            gap: 90px;
-        }
-
-       
-        
-        
-        .img {
-            align-items: center;
-            margin-top: 10px;
-            padding-top: 10px;
-        }
+    .container {
+        height: auto;
+    }
 
 
 
-    } 
+    .btn {
+        background-color: white;
+        border-radius: 100%;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        gap: 90px;
+    }
 
 
-    
+
+
+    .img {
+        align-items: center;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+
+    .container-footer {
+        background-color: purple;
+
+    }
 
 
 
+}
+
+
+/*per tablet*/
+
+
+@media screen and (min-width: 991.99px) {
    
+    .title {
+        font-size: large;
+        color: orange;
+        height: 30px;
+    }
 
 
- 
+
+
+    .sottotitolo {
+        color: grey;
+    }
+
+    .titolo {
+        font-size: 20px;
+        color: purple;
+    }
+
+
+    ul {
+        list-style-type: none;
+    }
+
+
+
+    .col-50 {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+    .container {
+        height: auto;
+        margin: 0;
+    }
+
+
+
+    .btn {
+        background-color: white;
+        border-radius: 100%;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        gap: 90px;
+    }
+
+
+
+
+    .img {
+        align-items: center;
+        margin-top: 10px;
+        padding-top: 10px;
+        margin-top:
+    }
+
+
+    .container-footer {
+        background-color: purple;
+
+    }
     
+
+  
+}
+
+
+/*per mobile*/
+
+
+@media screen and (min-width: 767.99px) {
+
+    .title {
+        font-size: large;
+        color: orange;
+        height: 30px;
+    }
+
+
+
+
+    .sottotitolo {
+        color: grey;
+    }
+
+    .titolo {
+        font-size: 20px;
+        color: purple;
+    }
+
+
+    ul {
+        list-style-type: none;
+    }
+
+
+
+    .col-50 {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+    .container {
+        height: auto;
+    }
+
+
+
+    .btn {
+        background-color: white;
+        border-radius: 100%;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        gap: 90px;
+    }
+
+
+
+
+    .img {
+        align-items: center;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+
+    .container-footer {
+        background-color: purple;
+
+    }
+}
