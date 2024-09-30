@@ -12,17 +12,6 @@
     flex-wrap: wrap;
 }
 
-.col-1_2 {
-    flex-basis: 50%;
-}
-
-.col-1_3 {
-    flex-basis: calc(100% / 3);
-}
-
-.col-2_3 {
-    flex-basis: calc((100% / 3) * 2);
-}
 
 .nerko-one-regular {
     font-family: "Nerko One", cursive;
@@ -42,6 +31,12 @@
 /*inizio*/
 
 
+main {
+    background-color: beige;
+}
+
+
+
 @media screen and (max-width: 992px) {    
 
  .title {
@@ -50,14 +45,7 @@
   height: 30px;
 }
 
-}
 
-
-.container-hero {
-background-color: beige;
-border-radius: 1px;
-height: auto;
-}
 
 
 .sottotitolo {
@@ -69,3 +57,54 @@ height: auto;
     color: purple;
 }
 
+
+    ul {
+        list-style-type: none;
+        }
+
+    
+        
+        .col-50 {
+            display: flex;
+            justify-items: center;
+            align-items: center;
+        }
+
+
+
+
+
+
+        
+        .container {
+            height: auto;
+        }
+
+
+
+        .btn {
+            background-color: white;
+            border-radius: 100%;
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            gap: 90px;
+        }
+
+       
+        
+        
+        .img {
+            align-items: center;
+        }
+
+
+
+    } 
+
+
+
+   
+
+
+ 
+    
