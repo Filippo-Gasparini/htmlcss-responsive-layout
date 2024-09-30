@@ -58,7 +58,7 @@ main {
 
     .titolo {
         font-size: 20px;
-        color: purple;
+        color: rgba(112, 3, 112, 0.551);
     }
 
 
@@ -104,7 +104,7 @@ main {
 
 
     .container-footer {
-        background-color: purple;
+        background-color:rgba(195, 6, 195, 0.882);
 
     }
 
